@@ -35,7 +35,7 @@ This Deno application provides a ramadan cooking scheduler based on the time bet
 The application uses the Oak framework for routing. It listens on port 3000 by default. Make sure to allow network access when running the application.
 
 
-``// Example of importing and running the app
+
 // @ts-ignore
 import { Application } from 'https://deno.land/x/oak@v12.0.0/mod.ts';
 import router from './router.ts'
